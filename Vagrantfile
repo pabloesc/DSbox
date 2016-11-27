@@ -23,8 +23,8 @@ slaveName = "spark-slave"     # names of the slave nodes with a number appended
 slavesIP = "10.20.30.10"      # private IPs of slaves appending a number
 
 IPythonPort = 8001            # IPython/Jupyter port to forward (set in IPython config)
-SparkMasterPort = 8080        # SPARK_MASTER_WEBUI_PORT
-SparkWorkerPort = 8081        # SPARK_WORKER_WEBUI_PORT
+SparkMasterPort = 9080        # SPARK_MASTER_WEBUI_PORT
+SparkWorkerPort = 9081        # SPARK_WORKER_WEBUI_PORT
 SparkAppPort = 4040           # Spark app web UI port
 RStudioPort = 8787            # RStudio server port
 ZeppelinPort = 8888           # Zeppelin (default is 8080, conflict with Spark)
